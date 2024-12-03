@@ -287,6 +287,14 @@ font: "Noto Sans JP"
 
 ---
 
+### MVP 事例
+
+- [Making Lego Car CROSS Gaps - YouTube](https://www.youtube.com/watch?v=pwglOlD7e0M)
+
+- [Making Lego Car CROSS Narrow Bridges - YouTube](https://www.youtube.com/watch?v=fPvHJJ9CzcA)
+
+---
+
 ## 🔍 振り返り #2
 
 🌟 **良かった点、悪かった点、気付きを共有しよう**
