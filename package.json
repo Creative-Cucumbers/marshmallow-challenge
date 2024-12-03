@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "dev": "slidev",
-    "build": "slidev build --base /marshmallow-challenge/ --out docs",
+    "build": "slidev build --base ./ --out docs",
     "export": "slidev export"
   },
   "dependencies": {
