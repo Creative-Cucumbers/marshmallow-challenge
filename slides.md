@@ -432,6 +432,22 @@ Mark Elliot Zuckerberg
 
 ---
 
+## 🗳 アンケート
+
+下記を次の講義までにお願いします
+
+```
+0. 名前・チーム名
+
+1. 感想
+
+2. 学び
+
+3. 改善点
+```
+
+---
+
 ## 🔗 参考
 
 - [📎 Tom Wujec: Build a tower, build a team | TED Talk](https://www.ted.com/talks/tom_wujec_build_a_tower_build_a_team/transcript?subtitle=ja&language=ja)
