@@ -10,6 +10,15 @@ font: "Noto Sans JP"
 :root {
   font-size: 20px; /* 全体の文字サイズを変更 */
 }
+.mermaid-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
 </style>
 
 # 🎯 マシュマロチャレンジ
@@ -179,19 +188,69 @@ font: "Noto Sans JP"
 
 ---
 
-## 💬 アジャイル？
+### 💬 アジャイル？
 
-### 言葉の意味は？
+#### 言葉の意味は？
 
 **🚀 『すばやい』『俊敏な』🚀**
 
-### 一言で言うと？
+#### 一言で言うと？
 
 **✨ 変化に柔軟に適応して価値を最大化 ✨**
 
 ---
 
-## 📜 アジャイルソフトウェア開発宣言
+### **アジャイル開発**
+
+アジャイル開発は、**反復的かつ段階的な方法で進める開発手法**です。ソリューションを**スプリント（短期間の開発サイクル）**で開発し、その都度フィードバックを受け、設計や実装を修正・改善していきます。
+
+- **メリット**: 柔軟に変更対応ができ、早い段階で価値を提供できる。
+- **デメリット**: 長期的な計画が見えにくくなることがある。
+
+---
+
+### "顧客が本当に必要だったもの"
+
+<img src="./images/2024-12-04-11-12-41.png" alt="" style="width: 40%; display: block; margin: 0 auto;">
+
+- [Early Tree Swing Cartoons – BusinessBalls.com](https://www.businessballs.com/amusement-stress-relief/tree-swing-cartoon-pictures-early-versions/)
+- [顧客が本当に必要だったもの (こきゃくがほんとうにひつようだったもの)とは【ピクシブ百科事典】](https://dic.pixiv.net/a/%E9%A1%A7%E5%AE%A2%E3%81%8C%E6%9C%AC%E5%BD%93%E3%81%AB%E5%BF%85%E8%A6%81%E3%81%A0%E3%81%A3%E3%81%9F%E3%82%82%E3%81%AE)
+- [顧客が本当に必要だったものゲーム - 反社会人サークル - BOOTH](https://booth.pm/ja/items/899249)
+
+---
+
+### 🪜 アジャイル開発のステップ
+
+1. 📝 **プロダクトバックログ**: 開発するタスクをリスト化し、優先順位を決める。
+2. 📅 **スプリントプランニング**: スプリントで取り組むタスクを計画する。
+3. 🛠️ **設計・実装・テスト・デプロイ**: タスクを設計し、コーディング、テスト、公開を行う。
+4. 👥 **スプリントレビュー**: 完成した機能を発表し、フィードバックを得る。
+5. 🔄 **スプリントレトロスペクティブ**: 振り返りを行い、改善点を考える。
+
+[solution-design-with-technology/2024/1_solution_basic/README.md at main · Creative-Cucumbers/solution-design-with-technology](https://github.com/Creative-Cucumbers/solution-design-with-technology/blob/main/2024/1_solution_basic/README.md)
+
+---
+
+### 🪜 アジャイル開発のステップ
+
+<div class="mermaid-center">
+
+```mermaid
+graph TD
+    A[プロダクトバックログ] --> B[スプリントプランニング]
+    B --> C[設計・実装・テスト・デプロイ]
+    C --> G[スプリントレビュー]
+    G --> H[スプリントレトロスペクティブ]
+    H --> B
+%% ノードやテキストサイズを調整
+    classDef default fill:#f3f4f6,stroke:#1f2937,color:#111827,font-size:12px,font-family:'Segoe UI', Arial, sans-serif;
+```
+
+</div>
+
+---
+
+### 📜 アジャイルソフトウェア開発宣言
 
 - 🛠 ➡️ 💬 **プロセスやツールよりも個人と対話を**
 - 📄 ➡️ 💻 **包括的なドキュメントよりも動くソフトウェアを**
@@ -202,7 +261,7 @@ font: "Noto Sans JP"
 
 ---
 
-## 🧩 アジャイル宣言の背後にある原則
+### 🧩 アジャイル宣言の背後にある原則
 
 - 🎯 **顧客満足を最優先し、価値のあるソフトウェアを早く継続的に提供**
 - 🔄 **要求の変更を歓迎し、変化を競争力に転換**
@@ -214,13 +273,13 @@ font: "Noto Sans JP"
 
 ---
 
-## 🎯 アジャイル開発の前提
+### 🎯 アジャイル開発の前提
 
 **事前にすべてを正確に予測し、計画することはできない**
 
 ---
 
-## 💡 あらためてアジャイル開発とは？
+### 💡 あらためてアジャイル開発とは？
 
 1. 🤝 **関係者が協力し合い、目的を達成する**
 2. 🚀 **少しずつ作り、動作するものを早く届ける**
@@ -287,13 +346,22 @@ font: "Noto Sans JP"
 
 ---
 
-### MVP 事例
+### 💡 MVP 事例
 
 - [Making Lego Car CROSS Gaps - YouTube](https://www.youtube.com/watch?v=pwglOlD7e0M)
 
 - [Making Lego Car CROSS Narrow Bridges - YouTube](https://www.youtube.com/watch?v=fPvHJJ9CzcA)
 
 ---
+
+### 🤝 マシュマロチャレンジとアジャイル開発
+
+| 項目                   | マシュマロチャレンジ                         | スクラム開発                                 |
+| ---------------------- | -------------------------------------------- | -------------------------------------------- |
+| **目標達成のプロセス** | 制限時間内に高いタワーを構築することを目指す | スプリント内で成果物を完成させることを目指す |
+| **反復と改善**         | 試行錯誤を繰り返して最適な形を探る           | スプリントごとにプロセスを改善し続ける       |
+| **チームの協働**       | 役割分担とアイデアの共有で成果を向上させる   | チーム内で協力し、全員が責任を共有する       |
+| **柔軟性と適応力**     | 失敗しても新しい方法をすぐに試す             | 要件変更や課題に柔軟に対応する               |
 
 ## 🔍 振り返り #2
 
@@ -323,13 +391,13 @@ font: "Noto Sans JP"
 
 ---
 
-## 📝 まとめ
+## 📝 マシュマロチャレンジまとめ
 
 [📎 Tom Wujec: Build a tower, build a team | TED Talk](https://www.ted.com/talks/tom_wujec_build_a_tower_build_a_team/transcript?subtitle=ja&language=ja)
 
 ---
 
-### 🎥 動画メモ
+### 🎥マシュマロチャレンジ 動画メモ
 
 - 🧒 **幼稚園児の方が結果が良い！？**
   - 試行錯誤が大事
@@ -338,23 +406,29 @@ font: "Noto Sans JP"
 - 💰 **賞金が出ると結果が悪い！？**
   - 報酬と成果の関係はシンプルじゃない
 
+[📎 Tom Wujec: Build a tower, build a team | TED Talk](https://www.ted.com/talks/tom_wujec_build_a_tower_build_a_team/transcript?subtitle=ja&language=ja)
+
 ---
 
-## ✨ 学び
+## ✨ まとめ
 
-- 🌍 **"If you want to go fast, go alone. If you want to go far, go together."**
+#### ⚡ **"Fail fast"**
 
-  - 早く行きたければ一人で行け、遠くへ行きたければみんなで行け  
-    **アフリカのことわざ**
+**速く失敗せよ**
+<br>
+Silicon Valley startup culture
 
-- ⚡ **"Fail fast"**
+#### ✅ **"Done is better than perfect"**
 
-  - 速く失敗せよ  
-    **Silicon Valley startup culture**
+**完璧を目指すよりまず終わらせろ**
+<br>
+Mark Elliot Zuckerberg
 
-- ✅ **"Done is better than perfect"**
-  - 完璧を目指すよりまず終わらせろ  
-    **Mark Elliot Zuckerberg**
+#### 🌍 **"If you want to go fast, go alone. If you want to go far, go together."**
+
+**早く行きたければ一人で行け、遠くへ行きたければみんなで行け**
+<br>
+アフリカのことわざ
 
 ---
 
